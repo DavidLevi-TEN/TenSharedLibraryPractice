@@ -18,6 +18,7 @@
     <PackageReference Include="Ten.Shared.Authentication.Signature" Version="2.0.8882.70-beta-slim" />
     <PackageReference Include="Ten.Shared.Authentication.TenMaid" Version="2.0.8882.70-beta-slim" />
     <PackageReference Include="Ten.Shared.Templates.AspNetCore" Version="2.0.8882.70-beta-slim" />
+    <PackageReference Include="TenMaid.Shared.AspNetCore" Version="1.0.7867.178" />
   </ItemGroup>
 
 </Project>

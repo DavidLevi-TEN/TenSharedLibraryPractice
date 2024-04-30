@@ -1,8 +1,11 @@
 ﻿using Ten.Shared.AI.Application.EvilAiStack.Extensions;
 using Ten.Shared.AI.Application.EvilAiStack.Secrets;
+using Ten.Shared.Audit;
 using Ten.Shared.Health;
 using Ten.Shared.Hosting.AspNetCore.Builder;
+using Ten.Shared.Logging.AspNetCore;
 using Ten.Shared.Secrets;
+using TenMaid.Shared.AspNetCore.Audit;
 
 namespace TenSharedLibraryPractice
 {
@@ -15,10 +18,10 @@ namespace TenSharedLibraryPractice
             var services = builder.Services;
             var configuration = builder.Configuration;
 
+            builder.AddTenLogging();
+
             services.AddSecretsVault<EvilAiAppSecretsCache>(configuration);
             services.AddEvilAiAppServices(configuration);
-
-            services.AddLogging();
 
             services.AddControllers();
         }
