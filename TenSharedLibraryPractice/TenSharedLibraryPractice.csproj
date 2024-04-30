@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="OpenTelemetry.Instrumentation.AspNetCore" Version="1.8.1" />
+    <PackageReference Include="OpenTelemetry.Instrumentation.Http" Version="1.8.1" />
+    <PackageReference Include="System.Drawing.Common" Version="4.7.2" />
+    <PackageReference Include="System.Net.Http" Version="4.3.4" />
+    <PackageReference Include="System.Security.Cryptography.Xml" Version="4.7.1" />
+    <PackageReference Include="System.Text.RegularExpressions" Version="4.3.1" />
+    <PackageReference Include="Ten.Shared" Version="2.0.8644.1758-v2.0-alpha" />
+    <PackageReference Include="Ten.Shared.AI.Application" Version="1.0.8819.10" />
+    <PackageReference Include="Ten.Shared.Authentication.Signature" Version="2.0.8882.70-beta-slim" />
+    <PackageReference Include="Ten.Shared.Authentication.TenMaid" Version="2.0.8882.70-beta-slim" />
+    <PackageReference Include="Ten.Shared.Templates.AspNetCore" Version="2.0.8882.70-beta-slim" />
+  </ItemGroup>
+
+</Project>
