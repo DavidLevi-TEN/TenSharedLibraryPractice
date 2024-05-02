@@ -1,4 +1,6 @@
-﻿using Ten.Shared.AI.Application.EvilAiStack.Extensions;
+﻿using Amazon.Runtime.CredentialManagement;
+using Amazon.S3;
+using Ten.Shared.AI.Application.EvilAiStack.Extensions;
 using Ten.Shared.AI.Application.EvilAiStack.Secrets;
 using Ten.Shared.Audit;
 using Ten.Shared.Health;
