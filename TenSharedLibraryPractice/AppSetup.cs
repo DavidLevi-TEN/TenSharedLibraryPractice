@@ -25,6 +25,8 @@ namespace TenSharedLibraryPractice
             services.AddSecretsVault<EvilAiAppSecretsCache>(configuration);
             services.AddEvilAiAppServices(configuration);
 
+            services.AddGrpc();
+
             services.AddControllers();
         }
     }

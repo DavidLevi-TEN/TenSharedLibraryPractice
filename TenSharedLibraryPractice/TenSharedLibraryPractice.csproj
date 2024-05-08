@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+  	<Protobuf Include="Protos\hello.proto" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="OpenTelemetry.Instrumentation.AspNetCore" Version="1.8.1" />
     <PackageReference Include="OpenTelemetry.Instrumentation.Http" Version="1.8.1" />
     <PackageReference Include="System.Drawing.Common" Version="4.7.2" />
@@ -17,7 +21,8 @@
     <PackageReference Include="Ten.Shared.AI.Application" Version="1.0.8819.10" />
     <PackageReference Include="Ten.Shared.Authentication.Signature" Version="2.0.8882.70-beta-slim" />
     <PackageReference Include="Ten.Shared.Authentication.TenMaid" Version="2.0.8882.70-beta-slim" />
-    <PackageReference Include="Ten.Shared.Templates.AspNetCore" Version="2.0.8882.70-beta-slim" />
+    <PackageReference Include="Ten.Shared.Templates.AspNetCore" Version="2.0.8887.74-beta-slim" />
+    <PackageReference Include="Ten.Shared.Templates.GrpcApi" Version="2.0.8882.70-beta-slim" />
     <PackageReference Include="TenMaid.Shared.AspNetCore" Version="1.0.7867.178" />
   </ItemGroup>
 
