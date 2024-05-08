@@ -10,6 +10,9 @@ var app = AspNetCoreTemplate.Create(options);
 
 app.MapControllers();
 
+//TODO - Stop it from outputting everything on the console to logz.io
+app.MapGrpcService<HelloWorldService>();
+
 app.Run();
 
-record TestResponse(string Value);
+//record TestResponse(string Value);
